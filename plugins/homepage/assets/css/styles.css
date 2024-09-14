@@ -1,0 +1,59 @@
+/* Navbar container */
+.navbar {
+    padding: 10px 0;
+}
+
+.navbar-inner {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; /* Ensure space between logo and nav */
+    align-items: center;
+}
+
+/* Logo styling */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px; /* Adjust the logo height */
+}
+
+/* Navigation menu */
+.navigation {
+    text-align: right; /* Aligns the navigation links to the right */
+}
+
+.navigation nav ul {
+    display: flex; /* Aligns items horizontally */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 16px;
+}
+
+.navigation nav ul li {
+    margin-left: 20px; /* Adds space between menu items */
+}
+
+.navigation nav ul li a {
+    color: white; /* Set the text color */
+    text-decoration: none;
+    padding: 10px 15px; /* Adjust padding */
+    display: flex;
+    align-items: center;
+}
+
+.navigation nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Icon styling */
+.navigation nav ul li a i {
+    margin-right: 5px;
+}
