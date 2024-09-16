@@ -95,7 +95,7 @@ CREATE TABLE `tblusers` (
   `UEMAIL` varchar(90) NOT NULL,
   `PASS` varchar(90) NOT NULL,
   `TYPE` varchar(30) NOT NULL
-) ;
+);
 
 INSERT INTO `tblusers` (`USERID`, `NAME`, `UEMAIL`, `PASS`, `TYPE`) VALUES
 (1, 'Lyndon Bermoy', 'serbermz', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'Administrator');
